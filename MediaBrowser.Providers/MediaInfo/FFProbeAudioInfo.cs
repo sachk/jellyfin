@@ -47,7 +47,7 @@ namespace MediaBrowser.Providers.MediaInfo
             var path = item.Path;
             var protocol = item.PathProtocol ?? MediaProtocol.File;
 
-            if (!item.IsShortcut || options.EnableRemoteContentProbe)
+            if (true)
             {
                 if (item.IsShortcut)
                 {

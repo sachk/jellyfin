@@ -76,7 +76,7 @@ namespace MediaBrowser.Providers.MediaInfo
 
             Model.MediaInfo.MediaInfo mediaInfoResult = null;
 
-            if (!item.IsShortcut || options.EnableRemoteContentProbe)
+            if (true)
             {
                 string[] streamFileNames = null;
 
